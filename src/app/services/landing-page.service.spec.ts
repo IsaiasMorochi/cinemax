@@ -28,6 +28,12 @@ describe('LandingPageService', () => {
       "nombre": "Youtube",
       "url": "https://www.youtube.com/channel/UCjWtzTnT35nxnJmDaH2r3OA"
       },
+      {
+        "clase": "fab fa-youtube",
+        "estado": true,
+        "nombre": "Youtube",
+        "url": "https://www.youtube.com/channel/UCjWtzTnT35nxnJmDaH2r3OA"
+        },
   ]
 
   let mockResponsePeliculas : Movie[] = [
