@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NavbarMenuComponent } from './landing-page/navbar-menu/navbar-menu.component';
 import { MoviesFilterComponent } from './landing-page/movies-filter/movies-filter.component';
 import { SlidesComponent } from './landing-page/slides/slides.component';
+import { WeeklyBilboardsComponent } from './landing-page/weekly-bilboards/weekly-bilboards.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { SlidesComponent } from './landing-page/slides/slides.component';
     NavbarMenuComponent,
     MoviesFilterComponent,
     SlidesComponent,
+    WeeklyBilboardsComponent,
   ],
   imports: [
     BrowserModule,
