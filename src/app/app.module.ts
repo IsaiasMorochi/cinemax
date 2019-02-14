@@ -9,6 +9,7 @@ import { NavbarSocialComponent } from './landing-page/navbar-social/navbar-socia
 import { LandingPageService } from './services/landing-page.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarMenuComponent } from './landing-page/navbar-menu/navbar-menu.component';
+import { MoviesFilterComponent } from './landing-page/movies-filter/movies-filter.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { NavbarMenuComponent } from './landing-page/navbar-menu/navbar-menu.comp
     LandingPageComponent,
     NavbarSocialComponent,
     NavbarMenuComponent,
+    MoviesFilterComponent,
   ],
   imports: [
     BrowserModule,
