@@ -13,6 +13,7 @@ import { MoviesFilterComponent } from './landing-page/movies-filter/movies-filte
 import { SlidesComponent } from './landing-page/slides/slides.component';
 import { WeeklyBilboardsComponent } from './landing-page/weekly-bilboards/weekly-bilboards.component';
 import { PremieresComponent } from './landing-page/premieres/premieres.component';
+import { CarouselComponent } from './landing-page/carousel/carousel.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { PremieresComponent } from './landing-page/premieres/premieres.component
     SlidesComponent,
     WeeklyBilboardsComponent,
     PremieresComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
