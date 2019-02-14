@@ -14,13 +14,13 @@ describe('LandingPageService', () => {
       "clase": "fab fa-facebook-f",
       "estado": true,
       "nombre": "Facebook",
-      "url": "fb.com/jhonantanplata"
+      "url": "fb.com/isaias.morochi"
       },
       {
       "clase": "fab fa-twitter",
       "estado": true,
       "nombre": "Twitter",
-      "url": "twitter.com/jhonantanplata"
+      "url": "twitter.com/Isaias59537299"
       },
       {
       "clase": "fab fa-youtube",
@@ -28,12 +28,6 @@ describe('LandingPageService', () => {
       "nombre": "Youtube",
       "url": "https://www.youtube.com/channel/UCjWtzTnT35nxnJmDaH2r3OA"
       },
-      {
-      "clase": "fab fa-instagram",
-      "estado": true,
-      "nombre": "Instagram",
-      "url": "www.instagram.com/"
-      }
   ]
 
   let mockResponsePeliculas : Movie[] = [

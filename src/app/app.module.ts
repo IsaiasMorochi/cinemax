@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
@@ -14,6 +15,7 @@ import { SlidesComponent } from './landing-page/slides/slides.component';
 import { WeeklyBilboardsComponent } from './landing-page/weekly-bilboards/weekly-bilboards.component';
 import { PremieresComponent } from './landing-page/premieres/premieres.component';
 import { CarouselComponent } from './landing-page/carousel/carousel.component';
+import { FooterComponent } from './landing-page/footer/footer.component';
 
 
 @NgModule({
@@ -27,10 +29,12 @@ import { CarouselComponent } from './landing-page/carousel/carousel.component';
     WeeklyBilboardsComponent,
     PremieresComponent,
     CarouselComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [LandingPageService],
   bootstrap: [AppComponent]
